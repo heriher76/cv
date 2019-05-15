@@ -11,14 +11,31 @@
     "react-scripts": "1.1.4",
     "react-toastify": "^5.1.0"
   },
-   "engines" : { 
-    "node" : "8.11.2" 
+  "proxy": "http://localhost:5000",
+  "engines": {
+    "node": "8.11.2"
   },
-  "engineStrict" : true,
+  "engineStrict": true,
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild":
+      "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heriher76/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heriher76/cv/issues"
+  },
+  "homepage": "https://github.com/heriher76/cv#readme"
 }
