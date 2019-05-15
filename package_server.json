@@ -1,0 +1,36 @@
+{
+  "name": "tutorialreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.0",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "1.1.4",
+    "react-toastify": "^5.1.0"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "client-install": "npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install && npm run build"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heriher76/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heriher76/cv/issues"
+  },
+  "homepage": "https://github.com/heriher76/cv#readme"
+}
