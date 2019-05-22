@@ -8,7 +8,7 @@ class Home extends Component {
 		          <a className="navbar-brand js-scroll-trigger" href="#page-top">
 		            <span className="d-block d-lg-none  mx-0 px-0"><img src="/img/logo-white.png" alt className="img-fluid" style={{height: '50px', padding: '0px'}} /></span>
 		            <span className="d-none d-lg-block">
-		              <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/profile.jpg" alt />
+		              <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt />
 		            </span>
 		          </a>
 		          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,7 +101,7 @@ class Home extends Component {
 		                <div className="card mx-0 p-4 mb-5" style={{borderColor: '#17a2b8', boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.21)'}}>
 		                  <div className=" resume-content mr-auto">
 		                    <h4 className="mb-3"><i className="fa fa-globe mr-3 text-info" /> Web Developer</h4>
-		                    <p />
+		                    <p>studied web programming for 3 months and I have made several website projects</p>
 		                  </div>
 		                  <div className="resume-date text-md-right">
 		                    <span className="text-primary">April 2018 - Present</span>
@@ -112,7 +112,7 @@ class Home extends Component {
 		                <div className="card mx-0 p-4 mb-5" style={{borderColor: '#ffc107', boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.21)'}}>
 		                  <div className="resume-content mr-auto">
 		                    <h4 className="mb-3"><i className="fa fa-phone mr-3 text-warning" /> Mobile Developer</h4>
-		                    <p />
+		                    <p>self-learning by searching on the internet, and directly practicing it on real projects</p>
 		                  </div>
 		                  <div className="resume-date text-md-right">
 		                    <span className="text-primary">September 2018 - Present</span>
@@ -123,7 +123,7 @@ class Home extends Component {
 		                <div className="card mx-0 p-4 mb-5" style={{borderColor: '#28a745', boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.21)'}}>
 		                  <div className="resume-content mr-auto">
 		                    <h4 className="mb-3"><i className="fa fa-wifi mr-3 text-success" /> Junior Network Engineer</h4>
-		                    <p />
+		                    <p>I got knowledge about computer networks when I was 15 years old, and I could practice it</p>
 		                  </div>
 		                  <div className="resume-date text-md-right">
 		                    <span className="text-primary">Agustus 2018 - Present</span>
@@ -134,7 +134,7 @@ class Home extends Component {
 		                <div className="card mx-0 p-4 mb-5" style={{borderColor: '#2196f3', boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.21)'}}>
 		                  <div className="resume-content mr-auto">
 		                    <h4 className="mb-3"><i className="fa fa-area-chart mr-3 text-primary" /> Design Graphics</h4>
-		                    <p />
+		                    <p>besides my busy programming, I often sharpen my right brain by making photo designs or something else</p>
 		                  </div>
 		                  <div className="resume-date text-md-right">
 		                    <span className="text-primary">Januari 2018 - Present</span>
@@ -152,84 +152,16 @@ class Home extends Component {
 		                <h2 className="  text-center">Portfolio</h2>
 		                <div className="mb-5 heading-border" />
 		              </div>
-		              <div className="col-md-12">
-		                <div className="port-head-cont">
-		                  <button className="btn btn-general btn-green filter-b" data-filter="all">All</button>
-		                  <button className="btn btn-general btn-green filter-b" data-filter="consulting">Web Design</button>
-		                  <button className="btn btn-general btn-green filter-b" data-filter="finance">Mobile Apps</button>
-		                  <button className="btn btn-general btn-green filter-b" data-filter="marketing">Graphics Design</button> 
-		                </div>
-		              </div>
 		            </div>
 		            <div className="row my-auto">
 		              <div className="col-sm-4 portfolio-item filter finance">
-		                <a className="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-		                  <div className="caption-port">
-		                    <div className="caption-port-content">
-		                      <i className="fa fa-search-plus fa-3x" />
-		                    </div>
-		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-4.jpg" alt />
-		                </a>
-		              </div>
-		              <div className="col-sm-4 portfolio-item filter marketing">
-		                <a className="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-		                  <div className="caption-port">
-		                    <div className="caption-port-content">
-		                      <i className="fa fa-search-plus fa-3x" />
-		                    </div>
-		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-5.jpg" alt />
-		                </a>
-		              </div>
-		              <div className="col-sm-4 portfolio-item filter consulting">
-		                <a className="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-		                  <div className="caption-port">
-		                    <div className="caption-port-content">
-		                      <i className="fa fa-search-plus fa-3x" />
-		                    </div>
-		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-6.jpg" alt />
-		                </a>
-		              </div>              
-		              <div className="col-sm-4 portfolio-item filter consulting">
-		                <a className="portfolio-link" href="#portfolioModal7" data-toggle="modal">
-		                  <div className="caption-port">
-		                    <div className="caption-port-content">
-		                      <i className="fa fa-search-plus fa-3x" />
-		                    </div>
-		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-7.jpg" alt />
-		                </a>
-		              </div>
-		              <div className="col-sm-4 portfolio-item filter consulting">
-		                <a className="portfolio-link" href="#portfolioModal8" data-toggle="modal">
-		                  <div className="caption-port">
-		                    <div className="caption-port-content">
-		                      <i className="fa fa-search-plus fa-3x" />
-		                    </div>
-		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-8.jpg" alt />
-		                </a>
-		              </div>
-		              <div className="col-sm-4 portfolio-item filter finance">
-		                <a className="portfolio-link" href="#portfolioModal9" data-toggle="modal">
-		                  <div className="caption-port">
-		                    <div className="caption-port-content">
-		                      <i className="fa fa-search-plus fa-3x" />
-		                    </div>
-		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-9.jpg" alt />
-		                </a>
-		              </div>              
-		              <div className="col-sm-4 portfolio-item filter marketing">
 		                <a className="portfolio-link" href="#portfolioModal1" data-toggle="modal">
 		                  <div className="caption-port">
 		                    <div className="caption-port-content">
 		                      <i className="fa fa-search-plus fa-3x" />
 		                    </div>
 		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-1.jpg" alt />
+		                  <img className="img-fluid" style={{height: '230px'}} src="portfolio/satu.png" alt />
 		                </a>
 		              </div>
 		              <div className="col-sm-4 portfolio-item filter marketing">
@@ -239,20 +171,21 @@ class Home extends Component {
 		                      <i className="fa fa-search-plus fa-3x" />
 		                    </div>
 		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-2.jpg" alt />
+		                  <img className="img-fluid" style={{height: '230px'}} src="portfolio/dua.png" alt />
 		                </a>
 		              </div>
-		              <div className="col-sm-4 portfolio-item filter finance">
+		              <div className="col-sm-4 portfolio-item filter marketing">
 		                <a className="portfolio-link" href="#portfolioModal3" data-toggle="modal">
 		                  <div className="caption-port">
 		                    <div className="caption-port-content">
 		                      <i className="fa fa-search-plus fa-3x" />
 		                    </div>
 		                  </div>
-		                  <img className="img-fluid" src="img/portfolio/p-3.jpg" alt />
+		                  <img className="img-fluid" style={{height: '230px'}} src="portfolio/tiga.png" alt />
 		                </a>
-		              </div> 
+		              </div>
 		            </div>
+		            <center><a href="https://heriher76.github.io" target="_blank" className="btn btn-primary">See More..</a></center>
 		          </section>
 		          {/*====================================================
 		                        SKILLS
@@ -402,36 +335,13 @@ class Home extends Component {
 		                  <div className="modal-body">
 		                    <div className="title-bar">
 		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
+		                        <h2 className="text-center">My Project</h2>
 		                        <div className="heading-border" />
 		                      </div>
 		                    </div>
 		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-1.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
+		                      <div className="col-md-12">
+		                        <img className="img-fluid img-centered" src="portfolio/satu.png" alt />
 		                      </div>
 		                    </div>
 		                  </div>
@@ -440,6 +350,7 @@ class Home extends Component {
 		            </div>
 		          </div>
 		        </div>
+		        
 		        <div className="portfolio-modal modal fade" id="portfolioModal2" tabIndex={-1} role="dialog" aria-hidden="true">
 		          <div className="modal-dialog" role="document">
 		            <div className="modal-content">
@@ -453,36 +364,13 @@ class Home extends Component {
 		                  <div className="modal-body">
 		                    <div className="title-bar">
 		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
+		                        <h2 className="text-center">My Project</h2>
 		                        <div className="heading-border" />
 		                      </div>
 		                    </div>
 		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-2.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
+		                      <div className="col-md-12">
+		                        <img className="img-fluid img-centered" src="portfolio/dua.png" alt />
 		                      </div>
 		                    </div>
 		                  </div>
@@ -491,6 +379,7 @@ class Home extends Component {
 		            </div>
 		          </div>
 		        </div>
+		        
 		        <div className="portfolio-modal modal fade" id="portfolioModal3" tabIndex={-1} role="dialog" aria-hidden="true">
 		          <div className="modal-dialog" role="document">
 		            <div className="modal-content">
@@ -504,36 +393,13 @@ class Home extends Component {
 		                  <div className="modal-body">
 		                    <div className="title-bar">
 		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
+		                        <h2 className="text-center">My Project</h2>
 		                        <div className="heading-border" />
 		                      </div>
 		                    </div>
 		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-3.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
+		                      <div className="col-md-12">
+		                        <img className="img-fluid img-centered" src="portfolio/tiga.png" alt />
 		                      </div>
 		                    </div>
 		                  </div>
@@ -542,312 +408,7 @@ class Home extends Component {
 		            </div>
 		          </div>
 		        </div>
-		        <div className="portfolio-modal modal fade" id="portfolioModal4" tabIndex={-1} role="dialog" aria-hidden="true">
-		          <div className="modal-dialog" role="document">
-		            <div className="modal-content">
-		              <div className="close-modal" data-dismiss="modal">
-		                <div className="lr">
-		                  <div className="rl" />
-		                </div>
-		              </div>
-		              <div className="container">
-		                <div className="row">
-		                  <div className="modal-body">
-		                    <div className="title-bar">
-		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
-		                        <div className="heading-border" />
-		                      </div>
-		                    </div>
-		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-4.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
-		                      </div>
-		                    </div>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		        <div className="portfolio-modal modal fade" id="portfolioModal5" tabIndex={-1} role="dialog" aria-hidden="true">
-		          <div className="modal-dialog" role="document">
-		            <div className="modal-content">
-		              <div className="close-modal" data-dismiss="modal">
-		                <div className="lr">
-		                  <div className="rl" />
-		                </div>
-		              </div>
-		              <div className="container">
-		                <div className="row">
-		                  <div className="modal-body">
-		                    <div className="title-bar">
-		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
-		                        <div className="heading-border" />
-		                      </div>
-		                    </div>
-		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-5.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
-		                      </div>
-		                    </div>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		        <div className="portfolio-modal modal fade" id="portfolioModal6" tabIndex={-1} role="dialog" aria-hidden="true">
-		          <div className="modal-dialog" role="document">
-		            <div className="modal-content">
-		              <div className="close-modal" data-dismiss="modal">
-		                <div className="lr">
-		                  <div className="rl" />
-		                </div>
-		              </div>
-		              <div className="container">
-		                <div className="row">
-		                  <div className="modal-body">
-		                    <div className="title-bar">
-		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
-		                        <div className="heading-border" />
-		                      </div>
-		                    </div>
-		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-6.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
-		                      </div>
-		                    </div>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>    
-		        <div className="portfolio-modal modal fade" id="portfolioModal7" tabIndex={-1} role="dialog" aria-hidden="true">
-		          <div className="modal-dialog" role="document">
-		            <div className="modal-content">
-		              <div className="close-modal" data-dismiss="modal">
-		                <div className="lr">
-		                  <div className="rl" />
-		                </div>
-		              </div>
-		              <div className="container">
-		                <div className="row">
-		                  <div className="modal-body">
-		                    <div className="title-bar">
-		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
-		                        <div className="heading-border" />
-		                      </div>
-		                    </div>
-		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-7.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
-		                      </div>
-		                    </div>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		        <div className="portfolio-modal modal fade" id="portfolioModal8" tabIndex={-1} role="dialog" aria-hidden="true">
-		          <div className="modal-dialog" role="document">
-		            <div className="modal-content">
-		              <div className="close-modal" data-dismiss="modal">
-		                <div className="lr">
-		                  <div className="rl" />
-		                </div>
-		              </div>
-		              <div className="container">
-		                <div className="row">
-		                  <div className="modal-body">
-		                    <div className="title-bar">
-		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
-		                        <div className="heading-border" />
-		                      </div>
-		                    </div>
-		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-8.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
-		                      </div>
-		                    </div>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		        <div className="portfolio-modal modal fade" id="portfolioModal9" tabIndex={-1} role="dialog" aria-hidden="true">
-		          <div className="modal-dialog" role="document">
-		            <div className="modal-content">
-		              <div className="close-modal" data-dismiss="modal">
-		                <div className="lr">
-		                  <div className="rl" />
-		                </div>
-		              </div>
-		              <div className="container">
-		                <div className="row">
-		                  <div className="modal-body">
-		                    <div className="title-bar">
-		                      <div className="col-md-12">
-		                        <h2 className="text-center">Our Project</h2>
-		                        <div className="heading-border" />
-		                      </div>
-		                    </div>
-		                    <div className="row">
-		                      <div className="col-md-6">
-		                        <img className="img-fluid img-centered" src="img/portfolio/p-9.jpg" alt />
-		                      </div>
-		                      <div className="col-md-6">
-		                        <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-		                        <ul className="list-inline item-details">
-		                          <li>Client:
-		                            <strong>
-		                              <a href="#">Techs Soft</a>
-		                            </strong>
-		                          </li>
-		                          <li>Date:
-		                            <strong>
-		                              <a href="#">April 2018</a>
-		                            </strong>
-		                          </li>
-		                          <li>Service:
-		                            <strong>
-		                              <a href="#">Web Development</a>
-		                            </strong>
-		                          </li>
-		                        </ul>
-		                        <button className="btn btn-general btn-white" type="button" data-dismiss="modal">
-		                          <i className="fa fa-times" /> Close
-		                        </button>
-		                      </div>
-		                    </div>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
+
 		      </div>
 		);
 	}
